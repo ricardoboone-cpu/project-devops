@@ -28,6 +28,7 @@ if __name__ == "__main__":
         exit()
 
     accion = sys.argv[1]
+# listar instancias
 
     if accion == "listar":
         listar()
