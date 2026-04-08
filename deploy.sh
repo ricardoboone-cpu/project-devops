@@ -17,7 +17,7 @@ if [ $? -ne 0 ]; then
     echo "Error en EC2" >> logs/deploy.log
     exit 1
 fi
-
+# integración S3
 echo "Ejecutando backup..."
 bash s3/backup_s3.sh $DIR $BUCKET
 
