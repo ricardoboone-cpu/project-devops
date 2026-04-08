@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# integración EC2
 ACCION=$1
 INSTANCE=$2
 DIR=$3
